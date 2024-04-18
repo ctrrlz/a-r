@@ -1,0 +1,9 @@
+<div>
+  <button (click)="showCarInfo()">Информация об автомобиле</button>
+  <button (click)="showAirplaneInfo()">Информация о самолете</button>
+  <button (click)="showShipInfo()">Информация о корабле</button>
+</div>
+
+<app-car-info *ngIf="showCar"></app-car-info>
+<app-airplane-info *ngIf="showAirplane"></app-airplane-info>
+<app-ship-info *ngIf="showShip"></app-ship-info>
