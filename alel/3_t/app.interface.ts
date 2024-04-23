@@ -9,6 +9,6 @@ export interface Property{
     floor: number;
     floors: number;
     lift: boolean;
-    windows: string;
-    gaz: boolean;
+    window: string;
+    gaz: string;
 }
